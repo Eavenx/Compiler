@@ -34,6 +34,14 @@ https://www.jianshu.com/p/e8d3c38ebe77
 步骤简而言之：安装LLVM->安装Clang->安装Cmake->(还没安完）
 
 安装Cmake:blog.csdn.net/flydreamforever/article/details/65454018 （不过make我改成了make -j8）据说可以加速？（blog.csdn.net/lj402159806/article/details/76408597）
+svn llvm ...
+svn clang ...
+svn RT ...
+mkdir build
+cd build
+cmake ../
+make
+make install
 
 Ps:终端打开: ctrl+alt+T
 

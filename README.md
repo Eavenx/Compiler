@@ -41,4 +41,4 @@ Ps:终端打开: ctrl+alt+T
 
 不知道是我的网络有问题（估计是）：svn下载LLVM遇到 svn not connected 然后文件locked up 解决方法是：进入当前操作的文件目录cd xx，使用命令svn cleanup
 
-TO BE CONTINUED
+cmake装了不下五次 每次装要花费几小时 由于不敢开多核 所以只能慢慢等 还有就是磁盘需要太大 超过了25G 我只好又重新下载VM 重安UBUNTU 不过发现VM 真的比VBOX强一些 tools很轻易安装好了（为了可以全屏显示） VBOX 增强功能需要很麻烦 而且我没成功
